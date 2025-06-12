@@ -1,0 +1,25 @@
+# AutoML Mini Project - 2025
+This is a mini project that uses Python for building an AutoML-based system. This document explains how to set up and run the project on your local machine.
+## 🚀 How to Run the Project Locally
+
+✅ 1. Clone the Repository
+Clone the project from GitHub to your local machine:
+```bash
+git clone https://github.com/kanthalidhruvan/AutoML.git
+cd AutoML
+
+✅ 2. Set Up a Virtual Environment (Recommended)
+It's best to create an isolated Python environment for dependencies:
+command: python -m venv venv
+➤ Activate the virtual environment:
+Windows:.\venv\Scripts\activate
+macOS/Linux:source venv/bin/activate
+
+✅ 3. Install Required Packages
+Make sure you install all required Python packages using requirements.txt:
+pip install -r requirements.txt
+
+✅ 4. Run the Application
+➤ If it’s a Streamlit App:
+streamlit run app.py
+You should now see the application running on http://localhost:8501 (for Streamlit) or http://127.0.0.1:5000 (for Flask).
