@@ -1,0 +1,21 @@
+# Ignore virtual environment folders
+automl_env/
+venv/
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore compiled extensions
+*.pyd
+*.dll
+*.so
+
+# VSCode or other IDE folders (optional)
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
